@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* Media query for screens smaller than a certain width (e.g., 768px) */
+@media only screen and (max-width: 1000px) {
+  .img-res {
+    padding-bottom: 20px; /* Add padding to the bottom of the image */
+  }
+
+  .card-stats{
+    margin-bottom: 20px; /* Add padding to the bottom of the image */
+
+  }
+}
+
+.contact-p{
+  margin-top: 100px;
+}
+
+.logo {
+  height: 40px; /* Adjust the height as needed */
+  margin-right: 10px; /* Optional: Add some margin for spacing */
+}
+
+.logo-footer{
+  height: 100px; /* Adjust the height as needed */
+  /* Optional: Add some margin for spacing */
+}
