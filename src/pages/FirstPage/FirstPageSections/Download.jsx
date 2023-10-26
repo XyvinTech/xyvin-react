@@ -2,6 +2,7 @@
 import React from "react";
 // reactstrap components
 import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
+import { Link } from "react-router-dom";
 
 export default function Download() {
   return (
@@ -22,15 +23,17 @@ export default function Download() {
             </h4>
           </Col>
           <Col className="text-center" lg="8" md="12">
-            <Button
+          <Link to={"contact"} >
+          <Button
               className="btn-round"
               color="info"
-              href="/contact"
+             
               role="button"
               size="lg"
             >
               Connect Now!
             </Button>
+          </Link>  
           </Col>
         </Row>
         <br />
