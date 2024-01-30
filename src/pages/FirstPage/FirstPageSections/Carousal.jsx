@@ -4,6 +4,11 @@ import { Button, Container, Row, Col, UncontrolledCarousel } from "reactstrap";
 
 const carouselItems = [
   {
+    src: require("assets/img2/ec.jpg"),
+    altText: "Slide 6",
+    caption: "",
+  },
+  {
     src: require("assets/img2/ggera.jpg"),
     altText: "Slide 1",
     caption: "",
@@ -27,7 +32,7 @@ const carouselItems = [
     src: require("assets/img2/nest.jpg"),
     altText: "Slide 5",
     caption: "",
-  },
+  }
 ];
 export default function Carousal() {
   return (
@@ -48,7 +53,7 @@ export default function Carousal() {
               <Button
                 className="mt-4"
                 color="warning"
-                href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/alert"
+                href="#"
               >
                 Projects
               </Button>

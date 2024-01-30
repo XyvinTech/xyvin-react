@@ -17,7 +17,7 @@ export default function Footer() {
     <footer className="footer">
       <Container>
         <Row>
-          <Col md="3" className="d-flex align-items-center justify-content-center ">
+          <Col md="6" className="d-flex align-items-center justify-content-center ">
             <img src={logo} alt="logo" className="logo-footer"/>
           </Col>
           <Col md="3">
@@ -68,7 +68,7 @@ export default function Footer() {
               </NavItem>
             </Nav>
           </Col>
-          <Col md="3">
+          {/* <Col md="3">
             <h3 className="title">Follow us:</h3>
             <div className="btn-wrapper profile">
               <Button
@@ -108,7 +108,7 @@ export default function Footer() {
                 Follow us
               </UncontrolledTooltip>
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </footer>
